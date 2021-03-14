@@ -3,13 +3,92 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
+    <title>Connection</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+
 </head>
 <body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <!-- logo à gauche menu à droite -->
+                <div class="col-2">                    
+                    <a class="navbar-brand" href='#'>
+                        <img class='main_img' src="../images/hexagone.png" alt="hexogone">
+                    </a>
+                    <img src="../images/logo.png" class="img_menu" alt="title">
+                </div>
+                <div class="col-8"></div> 
+                <div class="col-3">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#">login</a>
+                        <a class="nav-link" href="#">Créer un compte</a>
+                        <span> <img class="img_menu" src="../images/login.png" alt="key"></span>
+                    </div>
+                    </div>
+                </div>            
+            </div> 
+          </nav>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class= "col-md-12 col-lg-4 log_pan">               
+                <div class="col-12 ">
+                    <div class="login-form">
+                        <form action="/examples/actions/confirmation.php" method="post">                        
+                            <div class=" col-12 text-center enter"> 
+                                <h2>Connexion utilisateur</h2>
+                            </div> 
+                            <div> 
+                                <h6  class="enter">Connectez vous avec votre login et password                                    
+                                </h6>                                      
+                            </div>                   
+                            <div class="form-group enter">
+                                <label for="user">User name</label>
+                                <input type="text" class="form-control" id="user" placeholder="Username" required="required">
+                            </div>
+                            <div class="form-group enter">
+                                <label for="password">Password</label>
+                                <input type="password" id="password" class="form-control" placeholder="Password" required="required">
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col-2"></div>
+                                <div class="col-6">
+                                    <a href="#" class="float-right">Mot de passe oublié?</a>
+                                </div>
+                                <div class="col-4">
+                                    <div class="form-group">
+                                        <button type="submit" class="btn btn-primary btn-block next valid">
+                                            Suivant
+                                        </button>
+                                    </div>
+                                </div>                                                        
+                            </div> 
+                            <div class="row">
+                                <div class="col-12 text-center">
+                                    <button type="submit" class="btn btn-outline-secondary next">
+                                        Connexion avec Goolge
+                                    </button>
+                                </div>
+                            </div>       
+                        </form>
+                    </div>    
+                </div>
+            </div> 
+            <div class="col-md-12 col-lg-6 log_img">                
+                <img src="../images/connection.png" alt="login">
+            </div>                           
+    </div>
+    
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 </body>

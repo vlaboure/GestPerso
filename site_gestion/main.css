@@ -1,0 +1,107 @@
+@media all and (max-width:600px){
+    .log_img{
+        display:none;
+        margin:0px;
+    }
+}
+html{
+    margin:0;
+    padding:0;
+}
+.main_img{
+    height : 50px;
+}
+footer{
+    padding-top: 60px;
+}
+.center{
+    margin-top: 40px;
+    margin-bottom:30px;
+}
+
+.marg_le{
+    margin-left: 50px!important;
+
+}
+.log_pan{
+    margin-top: 50px;
+    padding: 50px;
+}
+.enter{
+    padding-bottom: 15px;
+}
+.next{
+    border-radius: 30px!important;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+.main{
+    width:1200px;
+}
+.log_img{
+    margin-top: 250px;
+}
+.navbar-nav .nav-link, .navbar-nav span{
+    font-size: 15px;
+    margin-left: 5px;
+}
+.img_menu{
+    max-height: 40px;
+    margin-left: 20px;
+}
+/* edit et detail */
+.text_user{
+    margin-left: 30px;
+}
+/* edit */
+.menu{
+    min-height: 50px;
+    background-color:#E4EDF1;
+}
+.edit{  
+    padding: 50px;
+}
+.upload{
+    margin-top:40px;
+}
+.img_upload{
+    max-width:280px;
+}
+.valid{
+    background-color: #CCF1BC!important;
+    color:rgba(0, 0, 0, 1 )!important;
+}
+.cancel{
+    background-color: #91adc2!important;
+}
+button{
+    min-width: 110px;
+}
+.larg_bn{
+    width:350px;
+}
+/* liste */
+.search{
+    padding:10px;
+}
+.img_pers{
+    max-height:400px;
+    padding-left: -10px;
+    margin-left:-140px;
+    margin-top: 120px;
+}
+.img_del{
+    max-height: 30px;
+}
+.head{
+    height:15px ;
+    background-color: #F2F6F8;
+    padding-top:0;
+}
+tr{
+    text-align:center;
+}
+td{
+    min-width: 50px;
+}

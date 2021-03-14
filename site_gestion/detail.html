@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Detail Utilisateur</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <div class="col-2">
+                <a class="navbar-brand" href='#'>
+                    <img class='main_img' src="../images/hexagone.png" alt="hexagone">
+                </a>
+                <img src="../images/logo.png" class="img_menu" alt="title">
+            </div>
+            <div class="col-8"></div> 
+            <div class="col-3">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#">logout</a>
+                        <span class="nav-link">user name</span>
+                        <span> <img class="img_menu" src="../images/detail.png" alt=""></span>
+                    </div>
+                </div>
+            </div>            
+        </div> 
+    </nav>
+  </header>
+
+<div class="container center">
+
+    <div class="row border main">
+                    <!-- barre haut -->
+        <div class="col-12 menu"> 
+            <div class="row">                  
+                <div class="col-1">
+                    <img class="img_menu" style = "margin-top:20px;"src="../images/gesion_personnel.png" alt="update">
+                </div> 
+                <div class="col-10" style="padding-top:20px;">
+                <h5 class=" text-center">Détail personne</h5> 
+                </div>                
+                
+                                
+            </div>   
+        </div>
+        <div class="col-sm-12 col-lg-6 text_user">
+            <!-- partie nom -->
+            
+            <h2 class="enter text-center">Coordonnées</h2>
+            <div class="row">
+                <div class="form-group row">
+                    <div class="col-12 enter">
+                        <label for="nom"class="col-md-4 control-label form-label col-form-label-md">Nom </label>
+                        <label for="nom"class="col-md-4 control-label form-label col-form-label-md"><strong>Menvussa</strong></label>
+                    </div>    
+                </div>
+            </div>    
+            <div class="row">
+                <div class="form-group row">
+                    <div class="col-12 enter">
+                        <label for="prenom" class="col-md-4 control-label form-label col-form-label-md">Prénom </label>
+                        <label for="nom"class="col-md-4 control-label form-label col-form-label-md"><strong>Gérard</strong></label>
+                    </div>
+                </div>                
+            </div>
+            <div class="row">
+                <div class="form-group row">
+                    <div class="col-12 enter">
+                        <label for="email" class="col-md-4 control-label form-label col-form-label-md">Email </label>
+                        <label for="nom"class="col-md-4 control-label form-label col-form-label-md"><strong>Menvussa@gerard@afpa.fr</strong></label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">                
+                <div class="form-group row">
+                    <div class="col-12 enter">
+                        <label for="date" class="col-md-4 control-label form-label col-form-label-md">Date de naissance </label>
+                        <label for="nom"class="col-md-4 control-label form-label col-form-label-md"><strong>01/01/1964</strong></label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group row">
+                    <div class="col-12 enter">
+                        <label for="telephone" class="col-md-4 control-label form-label col-form-label-md">Télephone</label>
+                        <label for="nom"class="col-md-4 control-label form-label col-form-label-md"><strong>0102030405</strong></label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group row">
+                    <div class="col-12 enter">
+                        <label for="telephone" class="col-md-4 control-label form-label col-form-label-md">Sexe </label>
+                        <label for="nom"class="col-md-4 control-label form-label col-form-label-md"><strong>Ecce hommo</strong></label>
+                    </div>
+                </div>
+            </div>   
+        </div>
+        <div class="col-sm-12 col-lg-4">
+            <!-- partie photo -->
+            <div class="container border upload">
+                <div class="row enter">
+                    <div class="col-12">                    
+                        <div class="text-center">
+                            <img class="img_upload"src="../images/employe.jpg" alt="upload">
+                        </div>
+                    </div>
+                </div>
+               
+            </div>     
+        </div> 
+        <!-- boutons       -->
+        <footer class="enter">
+            <div class="row">
+                <div class="col">
+                    <div class="form-group text-center">
+                        <button type="submit" class="btn btn-primary btn-block next cancel">
+                            Quitter
+                        </button>
+                    </div>        
+            </div>                        
+        </footer>                     
+    </div>
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</body>
+</html>
