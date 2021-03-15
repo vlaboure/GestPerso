@@ -50,6 +50,11 @@ footer{
     max-height: 40px;
     margin-left: 20px;
 }
+/* page index */
+.garde{
+    max-width:700px;    
+}
+
 /* edit et detail */
 .text_user{
     margin-left: 30px;
